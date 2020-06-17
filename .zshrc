@@ -68,10 +68,12 @@ export ZSH=$HOME/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-extras svn ssh-agent)
+plugins=(git git-extras svn ssh-agent zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=gray'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

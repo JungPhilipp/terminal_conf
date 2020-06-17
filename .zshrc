@@ -22,6 +22,8 @@ export ZSH=$HOME/.oh-my-zsh
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -107,7 +109,6 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #source /usr/share/powerlevel10k/powerlevel10k.zsh-theme
-ZSH_THEME="powerlevel10k/powerlevel10k"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile

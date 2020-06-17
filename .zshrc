@@ -73,7 +73,7 @@ plugins=(git git-extras svn ssh-agent zsh-autosuggestions zsh-history-substring-
 source $ZSH/oh-my-zsh.sh
 
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=gray'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

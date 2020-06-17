@@ -99,7 +99,8 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /usr/share/powerlevel9k/powerlevel9k.zsh-theme
+#source /usr/share/powerlevel10k/powerlevel10k.zsh-theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
